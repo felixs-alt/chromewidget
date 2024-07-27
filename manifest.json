@@ -1,0 +1,10 @@
+{
+    "name": "Useful Widget",
+    "description": "useful stuff",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "widget.html",
+      "default_icon": "bella.png"
+    }
+  }
