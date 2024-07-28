@@ -1,6 +1,28 @@
 <html>
+  <head>
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+  </head>
   <body>
-    <h1></h1>
-    </script src="widget.js">
+    <div class="cardm">
+      <div class="card">
+        <div class="weather-card">
+          <img class="weather" id="weather-icon" style="height:100px;width: auto;" src=""></img>
+        </div>
+        <div class="main" id="temp"></div>
+        <div class="mainsub" id="location">LOADING</div>
+      </div>
+    </div>
+    <div class="time-card">
+      <p id="time-text" class="time-text"><span>11:11</span></p>
+      <p id="day-text" class="day-text">Wednesday, June 15th</p>
+      <img class="bella" src="lib/bella.png">
+    </div>
+    <div id="elcard" class="elcard">
+      <iframe id="elframe" src="https://www.elprisetjustnu.se/i/malmo?mode=embed&layout=minimal&hide-examples=1&zoom=1.2&background=ffffff"></iframe>
+      
+    </div>
+    <script src="widget.js"></script>
   </body>
 </html>

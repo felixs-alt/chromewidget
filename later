@@ -1,0 +1,5 @@
+$.getJSON("https://latest.currency-api.pages.dev/v1/currencies/usd.json",
+    function (data, textStatus, jqXHR) {
+        document.getElementById("price").innerHTML=Math.round(data.usd.sek * 100) / 100+"kr"
+    }
+);

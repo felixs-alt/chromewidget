@@ -3,8 +3,12 @@
     "description": "useful stuff",
     "version": "1.0",
     "manifest_version": 3,
+    "permissions": ["geolocation"],
+    "host_permissions": [
+      "https://latest.currency-api.pages.dev/*"
+    ],
     "action": {
       "default_popup": "widget.html",
-      "default_icon": "bella.png"
+      "default_icon": "lib/bella.png"
     }
   }
